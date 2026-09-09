@@ -9,7 +9,7 @@ public class Main {
         produto.adicionarEstoque(5);
         produto.removerEstoque(3);
 
-        Produto produto1 = new Produto("Celular",4500,8);
+        Produto produto1 = new Produto("Celular",4300,8);
         System.out.println("ID do produto: " + produto1.getId());
         produto1.fichaTecnica();
 
